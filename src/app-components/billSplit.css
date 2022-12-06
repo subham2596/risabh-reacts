@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.split-container{
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgb(226, 248, 226);
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 15px rgb(1, 83, 1);
+}
+
+.title{
+    font-size: 32px;
+    color: rgb(16, 146, 16);
+}
+
+.w-600{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.w-600 input{
+    padding: 12px 14px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+
+.w-600 input:focus{
+    outline: none;
+    border: 1px solid green;
+    box-shadow: inset 0px 0px 5px rgba(1, 83, 1, 0.5);
+}
+
+.w-600 div{
+    margin-right:0 ;
+    margin-left: auto;
+}
+
+.btn-calculation{
+    padding: 8px;
+    margin: 8px;
+    border-radius: 40px;
+    border: 1px solid green;
+    background-color: rgb(173, 238, 173);
+    color: black;
+    font-size: 14px;
+    width: 100px;
+    transition: all 250ms ease-in-out;
+}
+
+.btn-calculation:hover{
+    background-color: rgb(88, 199, 88);
+}
+
+.reset {
+    justify-content: flex-end;
+
+}
+
+input.splitInput{
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+.changeColor{
+    font-weight: 700;
+    font-size: 15px;
+    background-color: rgb(88, 199, 88);
+}
+
+.changeColor:hover{
+    background-color: rgb(173, 238, 173);
+
+}
+
+.finalValue{
+    font-size: 26px;
+    color: rgb(16, 146, 16);
+}
+
+.m-top{
+    margin-top: 30px;
+}
